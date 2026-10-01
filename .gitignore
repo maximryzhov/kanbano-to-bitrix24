@@ -1,0 +1,25 @@
+# ── Личные данные и рабочие артефакты миграции (не публиковать) ──
+# выгрузка Kanbano: задачи, комментарии, имена, email
+kanbano_export.json
+# вложения задач
+kanbano_files/
+# отмеченные успешно отправленные задачи
+bitrix_followup_done.json
+# кэш списка проектов Bitrix24 (имена ваших проектов)
+bitrix_projects_cache.json
+# CSV для импорта и другие выгрузки (содержат задачи/комментарии)
+*.csv
+!tasks.csv
+# офлайн-список проектов, если вы его заполняли
+bitrix_projects*.txt
+
+# ── Профиль браузера: хранит cookies и токены доступа Kanbano! ──
+kanbano_chrome_profile/
+
+# ── Служебное ──
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
